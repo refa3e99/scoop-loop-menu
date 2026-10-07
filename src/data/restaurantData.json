@@ -1,0 +1,253 @@
+{
+  "brand": {
+    "name": "SCOOP LOOP",
+    "subtitle": "CHICKEN & SIDES",
+    "headline": "Good vibes. Great scoops.",
+    "tagline": "Your favorite bites, scooped, stacked & served.",
+    "currency": "JD",
+    "highlightBadges": [
+      "100% Whole Muscle Chicken",
+      "Fresh Hand-Cut Fries"
+    ],
+    "heroFeastTitle": "The Loop Feast",
+    "heroFeastSubtitle": "Fried to golden perfection on order"
+  },
+  "socials": {
+    "instagram": "https://instagram.com/scoop.loop.jo",
+    "facebook": "https://facebook.com/scooploopamman"
+  },
+  "categories": [
+    { "id": "all", "label": "All Bites" },
+    { "id": "sandwiches", "label": "Sandwiches" },
+    { "id": "sides", "label": "Fries & Sides" },
+    { "id": "sauces", "label": "Sauces" },
+    { "id": "drinks", "label": "Drinks" }
+  ],
+  "menuItems": [
+    {
+      "id": "crispy-chicken",
+      "name": "Crispy Chicken",
+      "category": "sandwiches",
+      "description": "Golden fried breast, creamy loop sauce, crunchy pickles & lettuce on brioche.",
+      "price": 7.95,
+      "image": "/src/assets/images/crispy_burger_1791355001470.jpg",
+      "isPopular": true,
+      "spicyLevel": 1,
+      "tags": ["Best Seller", "Fried Fresh"],
+      "options": {
+        "spiciness": ["Mild Crunch", "Signature Loop", "Extra Spicy Hot"],
+        "sizes": [
+          { "name": "Single Burger", "extraPrice": 0 },
+          { "name": "Combo (Fries + Drink)", "extraPrice": 3.80 }
+        ],
+        "addons": [
+          { "name": "Extra Melted Cheddar", "price": 0.90 },
+          { "name": "Double Pickle Crunch", "price": 0.50 },
+          { "name": "Extra Loop Sauce", "price": 0.75 }
+        ]
+      }
+    },
+    {
+      "id": "classic-chicken",
+      "name": "Classic Chicken",
+      "category": "sandwiches",
+      "description": "Tender juicy chicken filet with garlic herb mayo, crisp lettuce & toasted bun.",
+      "price": 7.25,
+      "image": "/src/assets/images/classic_chicken_1791355055657.jpg",
+      "isPopular": false,
+      "spicyLevel": 0,
+      "tags": ["Classic Favorite"],
+      "options": {
+        "spiciness": ["No Spice", "Signature Loop"],
+        "sizes": [
+          { "name": "Single Burger", "extraPrice": 0 },
+          { "name": "Combo (Fries + Drink)", "extraPrice": 3.80 }
+        ],
+        "addons": [
+          { "name": "Extra Cheddar Slice", "price": 0.90 },
+          { "name": "Crispy Onions", "price": 0.60 }
+        ]
+      }
+    },
+    {
+      "id": "loaded-chicken",
+      "name": "Loaded Chicken",
+      "category": "sandwiches",
+      "description": "Double stacked crispy chicken, warm cheddar drizzle, bacon bits & jalapeños.",
+      "price": 9.45,
+      "image": "/src/assets/images/crispy_burger_1791355001470.jpg",
+      "isPopular": true,
+      "isNew": true,
+      "spicyLevel": 2,
+      "tags": ["Huge Portion", "Customer Pick"],
+      "options": {
+        "spiciness": ["Signature Loop", "Fire Loop (Very Hot)"],
+        "sizes": [
+          { "name": "Single Burger", "extraPrice": 0 },
+          { "name": "Combo (Fries + Drink)", "extraPrice": 3.80 }
+        ],
+        "addons": [
+          { "name": "Extra Cheese Sauce", "price": 1.10 },
+          { "name": "Smoked Beef Strips", "price": 1.50 }
+        ]
+      }
+    },
+    {
+      "id": "loop-tenders-box",
+      "name": "Loop Tenders (4 Pcs)",
+      "category": "sandwiches",
+      "description": "Four jumbo crispy whole-muscle chicken tenders served with 1 free dip.",
+      "price": 6.90,
+      "image": "/src/assets/images/loop_tenders_1791355067834.jpg",
+      "isPopular": true,
+      "spicyLevel": 1,
+      "tags": ["Crunchy", "High Protein"],
+      "options": {
+        "spiciness": ["Original Golden", "Hot & Spicy"],
+        "sizes": [
+          { "name": "4 Pieces", "extraPrice": 0 },
+          { "name": "6 Pieces", "extraPrice": 2.40 },
+          { "name": "10 Pieces Family Box", "extraPrice": 6.50 }
+        ],
+        "addons": [
+          { "name": "Signature Loop Sauce Tub", "price": 0.85 },
+          { "name": "Creamy Garlic Mayo Tub", "price": 0.85 }
+        ]
+      }
+    },
+    {
+      "id": "loaded-fries",
+      "name": "Loaded Fries",
+      "category": "sides",
+      "description": "Golden skin-on fries smothered in hot melted cheese, chopped chicken & loop sauce.",
+      "price": 5.40,
+      "image": "/src/assets/images/loaded_fries_1791355011782.jpg",
+      "isPopular": true,
+      "spicyLevel": 1,
+      "tags": ["Must Try", "Shareable"],
+      "options": {
+        "spiciness": ["Regular Cheesy", "Spicy Jalapeño Crunch"],
+        "sizes": [
+          { "name": "Regular Tray", "extraPrice": 0 },
+          { "name": "Mega Tray", "extraPrice": 1.80 }
+        ],
+        "addons": [
+          { "name": "Extra Bacon Crunch", "price": 1.00 },
+          { "name": "Pickled Jalapeños", "price": 0.50 }
+        ]
+      }
+    },
+    {
+      "id": "classic-fries",
+      "name": "Classic Fries",
+      "category": "sides",
+      "description": "Fresh-cut crispy salted French fries cooked golden brown to order.",
+      "price": 3.25,
+      "image": "/src/assets/images/loaded_fries_1791355011782.jpg",
+      "isPopular": false,
+      "spicyLevel": 0,
+      "tags": ["Crispy"],
+      "options": {
+        "spiciness": ["Classic Sea Salt", "Spicy Loop Dust"],
+        "sizes": [
+          { "name": "Regular Size", "extraPrice": 0 },
+          { "name": "Large Size", "extraPrice": 0.95 }
+        ]
+      }
+    },
+    {
+      "id": "crispy-loop-poppers",
+      "name": "Loop Chicken Poppers",
+      "category": "sides",
+      "description": "Bite-sized seasoned chicken bites with our secret herbs and crunch coat.",
+      "price": 4.80,
+      "image": "/src/assets/images/loop_tenders_1791355067834.jpg",
+      "isPopular": false,
+      "spicyLevel": 1,
+      "tags": ["Snackable"]
+    },
+    {
+      "id": "signature-sauce",
+      "name": "Signature Loop Sauce",
+      "category": "sauces",
+      "description": "Our iconic sweet, smoky & tangy house secret blend made fresh daily.",
+      "price": 0.95,
+      "image": "/src/assets/images/signature_sauces_1791355021238.jpg",
+      "isPopular": true,
+      "spicyLevel": 1,
+      "tags": ["House Secret", "Cult Fav"]
+    },
+    {
+      "id": "garlic-mayo",
+      "name": "Creamy Garlic Mayo",
+      "category": "sauces",
+      "description": "Rich, smooth roasted garlic whipped mayo with subtle fresh herbs.",
+      "price": 0.95,
+      "image": "/src/assets/images/signature_sauces_1791355021238.jpg",
+      "isPopular": false,
+      "spicyLevel": 0
+    },
+    {
+      "id": "spicy-loop-dip",
+      "name": "Hot Fire Loop Dip",
+      "category": "sauces",
+      "description": "Habanero and chipotle blended into a rich creamy pepper sauce.",
+      "price": 0.95,
+      "image": "/src/assets/images/signature_sauces_1791355021238.jpg",
+      "isPopular": false,
+      "spicyLevel": 3,
+      "tags": ["Spicy"]
+    },
+    {
+      "id": "soft-drink",
+      "name": "Soft Drink (Fountain)",
+      "category": "drinks",
+      "description": "Ice-cold refreshing soda in a SCOOP LOOP cup. Free in-store refill.",
+      "price": 2.50,
+      "image": "/src/assets/images/loop_drink_1791355030774.jpg",
+      "isPopular": false,
+      "spicyLevel": 0,
+      "options": {
+        "sizes": [
+          { "name": "Regular (16 oz)", "extraPrice": 0 },
+          { "name": "Large (22 oz)", "extraPrice": 0.60 }
+        ]
+      }
+    },
+    {
+      "id": "loop-lemonade",
+      "name": "House Craft Lemonade",
+      "category": "drinks",
+      "description": "Fresh squeezed lemons with a splash of real cane sugar and crushed mint.",
+      "price": 3.40,
+      "image": "/src/assets/images/loop_drink_1791355030774.jpg",
+      "isPopular": true,
+      "spicyLevel": 0,
+      "tags": ["Fresh Daily"]
+    },
+    {
+      "id": "loop-shake",
+      "name": "Thick Loop Shake",
+      "category": "drinks",
+      "description": "Hand-spun rich vanilla or chocolate dairy custard shake with whipped cream.",
+      "price": 4.25,
+      "image": "/src/assets/images/loop_drink_1791355030774.jpg",
+      "isPopular": true,
+      "spicyLevel": 0,
+      "tags": ["Creamy & Thick"]
+    }
+  ],
+  "branches": [
+    {
+      "id": "The Boulevard Abdali",
+      "name": "Scoop Loop",
+      "area": "AlAbdali - The Boulevard Abdali",
+      "address": "The Boulevard Abdali, Amman",
+      "hours": "9:00 AM – 12:00 AM Daily",
+      "status": "Open Now",
+      "phone": "+962 7 8999 7778",
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3384.924053560224!2d35.9088078!3d31.962956999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca1957310d46b%3A0xe3613e11a60c7b47!2sSCOOP%20LOOP!5e0!3m2!1sen!2sjo!4v1791362097451!5m2!1sen!2sjo",
+      "mapShareUrl": "https://maps.app.goo.gl/jDFRTPJXiVALxScZA"
+    }
+  ]
+}

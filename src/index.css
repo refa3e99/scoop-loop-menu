@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4.5rem;
+  }
+
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #FFFDF7;
+    color: #0B3B24;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Custom SCOOP LOOP Scrollbar: Visible rounded thumb, completely transparent/hidden track */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track,
+  ::-webkit-scrollbar-track-piece {
+    background: transparent !important;
+  }
+
+  ::-webkit-scrollbar-button {
+    display: none !important;
+    width: 0;
+    height: 0;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #0B3B24;
+    border-radius: 9999px;
+    opacity: 0.85;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #062818;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: transparent !important;
+  }
+
+  /* Firefox Scrollbar: thumb colored, track transparent */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #0B3B24 transparent;
+  }
+}
+
+/* Hide scrollbar for category tabs while maintaining scrollability */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

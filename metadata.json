@@ -1,0 +1,6 @@
+{
+  "name": "SCOOP LOOP - Fast Food & Fried Chicken",
+  "description": "Good food. Good loop. Craveable crispy chicken, loaded fries, signature sauces, and ice-cold drinks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
