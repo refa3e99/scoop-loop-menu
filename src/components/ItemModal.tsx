@@ -16,11 +16,11 @@ export const ItemModal: React.FC<ItemModalProps> = ({ item, onClose }) => {
       role="dialog"
       aria-modal="true"
       aria-labelledby="modal-title"
-      className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-200"
+      className="fixed inset-0 z-50 flex items-center justify-center p-3.5 sm:p-4 bg-black/60 backdrop-blur-xs animate-in fade-in duration-200"
       onClick={onClose}
     >
       <div
-        className="bg-[#FFFDF7] w-full max-w-lg rounded-l-3xl rounded-r-none max-h-[90vh] overflow-y-auto shadow-2xl relative animate-in slide-in-from-bottom duration-300"
+        className="bg-[#FFFDF7] w-[90%] sm:w-full max-w-md sm:max-w-lg rounded-l-3xl rounded-r-none max-h-[85vh] overflow-y-auto shadow-2xl relative animate-in zoom-in-95 duration-200"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close button */}
