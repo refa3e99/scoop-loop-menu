@@ -137,7 +137,7 @@ export const Hero: React.FC<HeroProps> = ({ onViewMenu, onViewBranches }) => {
             {/* Food Image Container */}
             <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden border-3 sm:border-4 border-[#0B3B24] shadow-[4px_4px_0px_0px_#0B3B24] sm:shadow-[8px_8px_0px_0px_#0B3B24] bg-white transition-transform hover:-translate-y-1 duration-300 w-full">
               <img
-                src="/src/assets/images/hero_spread_1791354987636.jpg"
+                src="/images/hero_spread.jpg"
                 alt="SCOOP LOOP Crispy Chicken Burgers and Loaded Fries Spread"
                 className="w-full h-auto object-cover aspect-4/3 sm:aspect-16/10"
                 referrerPolicy="no-referrer"
